@@ -1,0 +1,22 @@
+{
+  "name": "sprint2",
+  "version": "1.0.0",
+  "description": "S2. Bootstrap&SASS ------------------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDelgadoD/S2-Bootstrap-and-SASS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDelgadoD/S2-Bootstrap-and-SASS/issues"
+  },
+  "homepage": "https://github.com/DDelgadoD/S2-Bootstrap-and-SASS#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}

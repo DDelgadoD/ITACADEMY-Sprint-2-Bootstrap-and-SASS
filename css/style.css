@@ -3,6 +3,7 @@ body{
     margin:4% 15%;
 }
 
-nav {
+header {
     min-width:250px;
+    max-width:1320px;
 }
