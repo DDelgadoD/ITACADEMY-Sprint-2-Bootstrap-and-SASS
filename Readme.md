@@ -252,4 +252,4 @@ Recursos
   
   
 
-**IMPORTANT: En **\-> [aquest link, tens els recursos](https://itacademy.barcelonactiva.cat/mod/folder/view.php?id=6040)** per a poder crear la web.**
+**IMPORTANT: En **\-> [aquest link, tens els recursos](./design/Recursos projecte sprint 2-20221009.zip)** per a poder crear la web.**
