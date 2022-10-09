@@ -22,9 +22,8 @@ Has d'utilitzar **Bootstrap 5 i SASS** per a generar els teus estils CSS.
 
 **Important**
 
-En **\-> [aquest link](./design/Recursos projecte sprint 2-20221009.zip)** tens els recursos per crear la web.
+En \-> **\-> [aquest link, tens els recursos](./design/Recursos-projecte-sprint-2-20221009.zip)** tens els recursos per crear la web.
 
-  
 
 #### Indicacions per a Bootstrap:
 
@@ -37,7 +36,7 @@ En **\-> [aquest link](./design/Recursos projecte sprint 2-20221009.zip)** tens 
 \- **Personalitzar el tema de Bootstrap** per defecte per a adaptar-ho als estils de la web que estàs creant mitjançant SASS. No fa falta crear classes noves, pots ajustar Bootstrap per a adaptar-ho a les teves necessitats: _paddings_ per defecte, colors del tema, marges...  
 Molt recomanable que vegis aquest vídeo curt de com modificar les variables per defecte que porta Bootstrap:
 
-![[](./design/bootstrap.png)](https://youtu.be/nCX3QVl_PiI)
+[![](./design/bootstrap.png)](https://youtu.be/nCX3QVl_PiI)
 
 Nivell 1
 --------
@@ -186,8 +185,6 @@ Només falta un bloc per acabar la web: el footer.
 
 #### Requisits mínims
 
-\-
-
 \- Fer servir els formularis de Bootstrap.
 
 \- Mostrar un **missatge d'error** quan el formulari del butlletí de notícies s'envia, i el camp d'entrada és buit o l'adreça de correu electrònic no està formatada correctament. S'ha de fer amb Bootstrap.
@@ -252,4 +249,4 @@ Recursos
   
   
 
-**IMPORTANT: En **\-> [aquest link, tens els recursos](./design/Recursos projecte sprint 2-20221009.zip)** per a poder crear la web.**
+**IMPORTANT: En **\-> [aquest link, tens els recursos](./design/Recursos-projecte-sprint-2-20221009.zip)** per a poder crear la web.**
