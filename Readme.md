@@ -8,21 +8,21 @@ El teu repte és construir una _landing page_ i fer que sembli el més possible 
 
   
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11961/mod_assign/intro/desktop-design.jpg)  
+![](./design/desktop-design.jpg)  
 
   
 
 El disseny per a mòbil ha de quedar així:
 
   
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11961/mod_assign/intro/mobile.svg)  
+![](./design/mobile-design.jpg)  
   
 
 Has d'utilitzar **Bootstrap 5 i SASS** per a generar els teus estils CSS.
 
 **Important**
 
-En **\-> [aquest link](https://itacademy.barcelonactiva.cat/mod/folder/view.php?id=6040)** tens els recursos per crear la web.
+En **\-> [aquest link](./design/Recursos projecte sprint 2-20221009.zip)** tens els recursos per crear la web.
 
   
 
@@ -37,6 +37,8 @@ En **\-> [aquest link](https://itacademy.barcelonactiva.cat/mod/folder/view.php?
 \- **Personalitzar el tema de Bootstrap** per defecte per a adaptar-ho als estils de la web que estàs creant mitjançant SASS. No fa falta crear classes noves, pots ajustar Bootstrap per a adaptar-ho a les teves necessitats: _paddings_ per defecte, colors del tema, marges...  
 Molt recomanable que vegis aquest vídeo curt de com modificar les variables per defecte que porta Bootstrap:
 
+![[](./design/bootstrap.png)](https://youtu.be/nCX3QVl_PiI)
+
 Nivell 1
 --------
 
@@ -46,7 +48,7 @@ En aquest exercici començarem per la part principal, que és el contingut que v
 
   
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11961/mod_assign/intro/web1%20%281%29.jpg)  
+![](./design/web-1.jpg)  
 
   
 
@@ -89,7 +91,7 @@ Ara toca crear la part de funcionalitats del producte que estem venent:
 
   
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11961/mod_assign/intro/web2.jpg)  
+![](./design/web2.jpg)  
   
   
 
@@ -115,7 +117,7 @@ Has de construir la tercera part de la web: l'àrea de descàrregues:
 
   
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11961/mod_assign/intro/web3.jpg)  
+![](./design/web3.jpg)  
 
   
 
@@ -138,7 +140,7 @@ ENHORABONA! Ja gairebé tens el nivell 1 completat! Ara toca desenvolupar l'apar
 
   
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11961/mod_assign/intro/web4.jpg)  
+![](./design/web4.jpg)  
 
   
 
@@ -177,7 +179,7 @@ Només falta un bloc per acabar la web: el footer.
 
   
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11961/mod_assign/intro/web5.jpg)  
+![](./design/web5.jpg)  
 
   
   
@@ -207,7 +209,7 @@ Modificar els estats actius dels botons, links, tabs i avisos de la web, perquè
 
   
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11961/mod_assign/intro/desktop-active-states.jpg)  
+![](./design/desktop-active-states.jpg)  
 
   
 
@@ -218,7 +220,7 @@ Com has implementat el posicionament de les cards de descàrregues de l'exercici
 
   
 
-![](https://itacademy.barcelonactiva.cat/pluginfile.php/11961/mod_assign/intro/web3%20%281%29.jpg)  
+![](./design/web3.jpg)  
   
   
 
