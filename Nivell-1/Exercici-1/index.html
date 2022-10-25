@@ -5,20 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Exercici 1</title>
-        <link
-            href="../../css/main.min.css"
-            rel="stylesheet"
-            
-        />
-        <link
-            href="../../css/style.css"
-            rel="stylesheet"
-        />
+        <link href="./main.min.css" rel="stylesheet" />
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light mt-5">
-                <div class="container-fluid" >
+        <header class="container pb-5">
+            <nav
+                class="navbar navbar-expand-lg navbar-light mt-5 py-2 py-lg-3 px-2 px-xl-5 section"
+            >
+                <div class="container-fluid px-0">
                     <a class="navbar-brand" href="#">
                         <img
                             src="../../images/logo-bookmark.svg"
@@ -27,7 +21,7 @@
                         />
                     </a>
                     <button
-                        class="navbar-toggler ms-auto p-2"
+                        class="navbar-toggler ms-auto"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent"
@@ -43,7 +37,7 @@
                             id="navbarSupportedContent"
                         >
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 me-4">
-                                <li class="nav-item m-4">
+                                <li class="nav-item mx-2">
                                     <a
                                         class="nav-link"
                                         aria-current="page"
@@ -51,10 +45,10 @@
                                         >FEATURES</a
                                     >
                                 </li>
-                                <li class="nav-item  m-4">
+                                <li class="nav-item mx-2">
                                     <a class="nav-link" href="#">PRICING</a>
                                 </li>
-                                <li class="nav-item m-4">
+                                <li class="nav-item mx-2">
                                     <a class="nav-link" href="#">CONTACT</a>
                                 </li>
                             </ul>
@@ -70,34 +64,35 @@
             </nav>
         </header>
 
-        <section>
-
-            <div class="row">
-           
-                <div class="col-4 d-flex flex-column justify-content-evenly align-items-start">
-                    <div class="">
-                        <h1>A simpler Bookmark Manager</h1>
-                    </div>
-                    
-                    <div>
-                        A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.
-                    </div>
-                    
-                    <div class="btn-group" role="group">
-                        <button type="button" class="btn btn-primary">Got it on Chrome</button>
-                        <button type="button" class="btn btn-light">Got it on Firefox</button>
-                    </div>
-                </div>
-                    
-                <div class="col-8">
+        <div
+            class="container pt-3 pb-4 section">
+            <div class="row flex-lg-row-reverse justify-content-between gy-4">
+                <div class="col-lg-6 px-2 pe-xl-5 position-relative">
+                    <div class="background-shape bg-primary"></div>
                     <img
+                        id="hero-image"
+                        class="position-relative"
                         src="../../images/illustration-hero.svg"
-                        alt=""
-                        class="d-inline-block align-text-top"
+                        alt="Infographic of a user interface"
                     />
                 </div>
+                <div
+                    class="col-lg-5 pe-lg-4 d-flex align-items-center pt-5 ps-lg-5"
+                >
+                    <div class="text-center text-lg-start">
+                        <h1 class=" text-capitalize">
+                            A simple bookmark manager
+                        </h1>
+                        <p class="text-muted">
+                            A clean and simple interface to organize your
+                            favourite websites. Open a new browser tab and see
+                            your sites load instantly. Try it for free.
+                        </p>
+                        <div class="btn btn-primary py-2 px-4 me-3 shadow">Get it on chrome</div>
+                        <div class="btn btn-light py-2 px-4 shadow">Get it on firefox</div>
+                    </div>
+                </div>
             </div>
-
-        </section>
+        </div>
     </body>
 </html>
