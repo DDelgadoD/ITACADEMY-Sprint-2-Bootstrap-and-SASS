@@ -23,9 +23,96 @@ $btn-font-size: 0.9rem;
   position: absolute;
   height: 75%;
   width: 100%;
-  top: 30%;
+  top: 30%;  
+}
+
+.left-shape{
   left: 30%;
   border-radius: 150px 0 0 150px;
 }
 
+.no-borders {
+  border: none;
+}
+
+@include media-breakpoint-up(lg){
+  .tanca{
+    padding-bottom: 10%;
+  }
+}
+
 /* Exercici 2 */
+
+.tabs-custom{
+  border-bottom: none 0px;
+}
+
+.tab-custom {
+  background-color: none;
+  border-bottom: solid 2px grey;
+  padding-bottom: 1%;
+}
+
+.tab-custom a{
+  color: grey;
+}
+
+.tab-custom-active {
+  border-bottom: solid 4px $secondary;
+  padding-bottom: 1%;
+}
+
+.tab-custom-active a{
+  color: black;
+  font-weight:bold;
+}
+
+.right-shape {
+  right: 30%;
+  border-radius: 0 150px 150px 0;
+}
+
+@include media-breakpoint-down(lg){
+    .tabs-custom{
+      width:80%;
+      display: flex;
+      margin: auto;
+    }
+    
+    .tab-custom {
+      width:100%;
+      background-color: none;
+      border-bottom: solid 1px grey;
+      padding: 2% 0;
+    }
+    
+    .tab-custom a{
+      color: grey;
+      text-align: center;
+    }
+    
+    .tab-custom-active {
+      width:100%;
+      border-top: solid 1px grey;
+      border-bottom: solid 1px grey;
+      padding: 2% 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    
+    .tab-custom-active a{
+      color: black;
+      font-weight:bold;
+      text-align: center;
+      border-bottom: solid 2px $secondary;
+    }
+    .border-active {
+      width:50%;
+      height: 4px;
+      background-color: $secondary;
+      margin: auto;
+      padding: none;
+    }
+
+
+}
