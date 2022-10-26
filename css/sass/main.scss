@@ -1,5 +1,8 @@
+@use "sass:map";
+
 $primary:#5265E1;
 $secondary: #FA5959;
+$navy: #242946;
 
 $font-size-base: 1.15rem;
 $nav-link-font-size: 0.85rem;
@@ -9,10 +12,12 @@ $margin-card: 5%;
 $accordion-border-radius: none;
 $accordion-button-icon: url("../../images/icon-arrow.svg");
 $accordion-button-active-icon: url("../../images/icon-close.svg");
-$border-widths-mod:1px 0px 1px 0px;
+$border-widths-mod: 1px 0px 1px 0px;
 $accordion-padding-y: 1.25rem;
+$btn-padding-y: 0.6rem;
 
-
+$form-feedback-icon-invalid: url("../../images/icon-error.svg");
+$form-feedback-invalid-color: white;
 
 /* BOOTSTRAP */
 
@@ -151,4 +156,54 @@ $accordion-padding-y: 1.25rem;
 
  .accordion-borders-1-0{
   border-width: $border-widths-mod !important;
+}
+
+/* Exercici 5*/
+
+footer{
+  background-color: #5265E1;
+  color:white;
+  padding: auto;
+}
+
+@include media-breakpoint-up(lg){
+  .footer-content{
+    margin: auto 36%;
+  }
+}
+
+.was-validated .email:invalid{
+  border: solid 2px $secondary;
+  border-radius: 5px 5px 0 0;
+}
+
+.invalid-feedback {
+  border: solid 2px $secondary;
+  background-color: $secondary;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+}
+
+.navy{
+  background-color: $navy;
+  color: white;
+}
+
+.link-foot{
+  font-size: unset;
+  color:white;
+  text-decoration:none;
+  margin:auto;
+}
+
+/*Exercici 7 */
+
+$cards: 3;
+
+ @include media-breakpoint-up(lg) {
+  @for $card from 1 through $cards {
+    .card:nth-child(#{$card}) {
+      margin-top: calc(5% * calc($card - 1));
+    }
+  }
 }
