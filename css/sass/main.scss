@@ -4,6 +4,8 @@ $secondary: #FA5959;
 $font-size-base: 1.15rem;
 $nav-link-font-size: 0.85rem;
 $btn-font-size: 0.9rem;
+$margin-card: 5%;
+
 
 /* BOOTSTRAP */
 
@@ -113,6 +115,27 @@ $btn-font-size: 0.9rem;
       margin: auto;
       padding: none;
     }
-
-
 }
+
+/* Exercici 3 */
+
+.browser{
+  width: 100px;
+  height: 100px;
+}
+
+.card{
+  max-height: 340px;
+}
+
+.card:nth-child(1){
+  margin-top: $margin-card * 0
+ }
+
+ .card:nth-child(2){
+  margin-top: $margin-card * 1
+ }
+
+ .card:nth-child(3){
+  margin-top: $margin-card * 2
+ }

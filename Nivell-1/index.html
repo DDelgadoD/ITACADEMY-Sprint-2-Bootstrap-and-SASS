@@ -28,12 +28,11 @@
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                     >
-                    <img
+                        <img
                             src="../../images/icon-hamburger.svg"
                             alt=""
                             class="d-inline-block"
-                    />        
-                        
+                        />
                     </div>
                     <form class="d-flex">
                         <div
@@ -68,7 +67,7 @@
             </nav>
         </header>
 
-        <div class="container pt-3 section tanca">
+        <div class="container pt-5 section tanca">
             <div class="row flex-lg-row-reverse justify-content-between gy-4">
                 <div class="col-lg-6 px-2 pe-xl-5 position-relative">
                     <div class="background-shape left-shape bg-primary"></div>
@@ -79,7 +78,9 @@
                         alt="Infographic of a user interface"
                     />
                 </div>
-                <div class="col-lg-5 pe-lg-4 d-flex align-items-center py-5 ps-lg-5">
+                <div
+                    class="col-lg-5 pe-lg-3 d-flex align-items-center py-5 ps-lg-5"
+                >
                     <div class="text-center text-lg-start">
                         <h1 class="text-capitalize">
                             A simple bookmark manager
@@ -103,7 +104,7 @@
         <div class="container pt-3 pb-4 section my-5">
             <div class="row justify-content-md-center">
                 <div class="col-lg-5">
-                    <h2 class="text-center">Features</h2>
+                    <h2 class="text-center my-4">Features</h2>
                     <p class="text-muted text-center">
                         Our aim is to make it quick and easy for you to access
                         your favourite websites. Your bookmarks sync between
@@ -114,20 +115,23 @@
 
             <ul class="nav nav-tabs justify-content-md-center tabs-custom my-5">
                 <li class="nav-item px-lg-5 tab-custom-active">
-                    <a class="nav-link " href="#">Simple Bookmarking</a>
+                    <a class="nav-link" href="#">Simple Bookmarking</a>
                     <div class="border-active"></div>
                 </li>
                 <li class="nav-item px-lg-5 tab-custom">
                     <a class="nav-link" href="#">Speddy Searching</a>
                 </li>
-                <li class="nav-item px-lg-5  tab-custom">
+                <li class="nav-item px-lg-5 tab-custom">
                     <a class="nav-link" href="#">Easy Sharing</a>
                 </li>
             </ul>
+
             <div class="container pt-3 pb-4 section">
                 <div class="row flex-lg-row justify-content-between gy-4">
                     <div class="col-lg-6 px-2 pe-xl-5 position-relative">
-                        <div class="background-shape right-shape bg-primary"></div>
+                        <div
+                            class="background-shape right-shape bg-primary"
+                        ></div>
                         <img
                             id="hero-image"
                             class="position-relative"
@@ -138,21 +142,76 @@
                     <div
                         class="col-lg-5 pe-lg-4 d-flex align-items-center pt-5 ps-lg-5"
                     >
-                        <div class="text-center text-lg-start ">
+                        <div class="text-center text-lg-start">
                             <h3 class="text-capitalize pb-2">
                                 Bookmark in one click
                             </h3>
                             <p class="text-muted pb-4">
-                                Organize your bookmarks however you like.Our 
+                                Organize your bookmarks however you like.Our
                                 simple drag-and-drop interfacegives you complete
-                                control over how you manage your favourite sites.
+                                control over how you manage your favourite
+                                sites.
                             </p>
-                            <div class="btn btn-primary py-3 px-4 me-3 shadow d-none d-lg-inline">
+                            <div
+                                class="btn btn-primary py-3 px-4 me-3 shadow d-none d-lg-inline"
+                            >
                                 More Info
                             </div>
-                         </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div class="container pt-3 pb-4 section my-5">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-5">
+                    <h2 class="text-center my-4">Download the Extension</h2>
+                    <p class="text-muted text-center">
+                        We've got more browsers in the pipeline. Please do let
+                        us know if you've got a favourite you'd like us to
+                        prioritize
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "row d-flex justify-content-md-center my-5 mx-auto">
+            
+            <div class="card mx-auto mx-lg-3 shadow col-12 col-lg-4" style="max-width: 18rem">
+                <img class="browser m-auto mt-5" src="../images/logo-chrome.svg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title text-center">Add to Chrome</h5>
+                    <p class="card-text text-muted m-auto mb-4 text-center">Minimum versión 62</p>
+                </div>
+                    <img src="../images/bg-dots.svg" alt="Card image cap" />
+                    <a href="#" class="btn btn-primary m-3 p-2"
+                        >Add & Install Extensión</a
+                    >     
+            </div>
+
+            <div class="card mx-auto mx-lg-3 shadow col-12 col-lg-4" style="max-width: 18rem">
+                <img class="browser m-auto mt-5" src="../images/logo-firefox.svg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title text-center">Add Chrome</h5>
+                    <p class="card-text text-muted m-auto mb-4 text-center">Minimum versión 55</p>
+                </div>
+                    <img src="../images/bg-dots.svg" alt="Card image cap" />
+                    <a href="#" class="btn btn-primary m-3 p-2"
+                        >Add & Install Extensión</a
+                    >
+            </div>
+
+            <div class="card mx-auto mx-lg-3 shadow col-12 col-lg-4 " style="max-width: 18rem">
+                <img class="browser m-auto mt-5" src="../images/logo-opera.svg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title text-center">Add to Opera</h5>
+                    <p class="card-text text-muted text-center">Minimum versión 46</p>
+                </div>
+                    <img src="../images/bg-dots.svg" alt="Card image cap" />
+                    <a href="#" class="btn btn-primary m-3 p-2"
+                        >Add & Install Extensión</a
+                    >
             </div>
 
         </div>
