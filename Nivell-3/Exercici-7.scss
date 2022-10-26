@@ -1,0 +1,13 @@
+/*Exercici 7 */
+
+/* Aquest codi ja está inclós al main.css */
+
+$cards: 3;
+
+ @include media-breakpoint-up(lg) {
+  @for $card from 1 through $cards {
+    .card:nth-child(#{$card}) {
+      margin-top: calc(5% * calc($card - 1));
+    }
+  }
+}
