@@ -6,6 +6,13 @@ $nav-link-font-size: 0.85rem;
 $btn-font-size: 0.9rem;
 $margin-card: 5%;
 
+$accordion-border-radius: none;
+$accordion-button-icon: url("../../images/icon-arrow.svg");
+$accordion-button-active-icon: url("../../images/icon-close.svg");
+$border-widths-mod:1px 0px 1px 0px;
+$accordion-padding-y: 1.25rem;
+
+
 
 /* BOOTSTRAP */
 
@@ -139,3 +146,10 @@ $margin-card: 5%;
  .card:nth-child(3){
   margin-top: $margin-card * 2
  }
+
+ /* Exercici 4 */
+
+ .accordion-borders-1-0{
+  border-width: $border-widths-mod !important;
+
+}
